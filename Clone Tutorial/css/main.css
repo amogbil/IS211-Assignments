@@ -1,0 +1,263 @@
+/* Website template by freewebsitetemplates.com */
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: orange;
+	margin: 0;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	width: 960px;
+	margin: 0 auto;
+	padding: 9em 0;
+	position: relative;
+}
+
+
+
+/** Navigation **/
+#navigation {
+	height: 47px;
+	padding: 13px 5px 4px;
+	position: absolute;
+	top: 20px;
+
+  display: inline;
+}
+#navigation ul {
+
+	display: inline-block;
+	height: 40px;
+	width: 688px;
+	list-style: none;
+	margin: 0;
+
+
+}
+#navigation li {
+	display: inline;
+	font-size: 16px;
+	line-height: 40px;
+	padding: 20px;
+
+}
+#navigation li.first {
+	margin-left: 0;
+  color: white;
+
+}
+#navigation li #selected {
+color: white;
+}
+#navigation a {
+	color: brown;
+	font-weight: normal;;
+	padding: 0 15px;
+	text-decoration: none;
+
+}
+#navigation a:hover {
+	color: white;
+}
+
+/** Searchbar **/
+#search {
+	background: url(../images/bg-search.gif) no-repeat right bottom;
+	height: 47px;
+	width: 268px;
+	padding: 13px 0 ;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+#search form {
+	display: inline-block;
+	margin: 0;
+	padding: 5px 4px 14px;
+}
+#search input {
+	float: left;
+	line-height: 38px;
+}
+#search .txtfield {
+	color: #6e6e6e;
+	font-size: 15px;
+	font-style: italic;
+	height: 38px;
+	width: 234px;
+	border: 0;
+	margin-left: 40px;
+	padding: 0px;
+}
+#search .button {
+  height: 50px;
+  width:40px;
+  position: absolute;
+
+}
+
+/** Adbox **/
+#adbox {
+  background-color: white;
+	height: 900px;
+	padding: 20px 0 0;
+  margin-top: 150px;
+
+}
+#adbox p {
+	margin: 0;
+}
+#adbox .body {
+	width: 960px;
+	margin:  0 auto 0;
+
+
+
+
+}
+#adbox .details {
+
+	height: 200px;
+	width: 200px;
+	padding: 40px 20px 40px 10px;
+}
+#adbox .details p {
+
+  clear: both;
+	color: black;
+	font-size: 14px;
+  display: inline-block;
+	line-height: 20px;
+	text-align: justify;
+}
+#adbox .details p span {
+	color: #646c6f;
+	display: block;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0 0 20px;
+	text-align: center;
+
+}
+#adbox .details p span a {
+	color: #073f5a;
+	font-weight: bold;
+	text-decoration: none;
+}
+#adbox .footer {
+	height: 46px;
+	width: 960px;
+	margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+	position: relative;
+
+
+}
+#adbox div.footer ul {
+	background-color: black;
+	display: inline-block;
+	width: 960px;
+	list-style: none;
+	margin: 0 auto;
+
+	padding: 0;
+	position: absolute;
+	bottom: 80px;
+}
+#adbox div.footer ul li {
+
+	width:180;
+	padding: 20px 0 18px;
+
+
+}
+#adbox div.footer ul li:first-child{
+
+
+  background-image: url(../img/glider.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  width:inherit;
+
+
+
+}
+
+#adbox div.footer ul li p {
+	color: orange;
+	font-size: 14px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------ FOOTER ------------------------------*/
+footer{
+
+background-color: black;
+  padding: 20px 0 0;
+  height: 340px;
+}
+#footer {
+
+
+  color: orange;
+	line-height: 20px;
+	width: 940px;
+	margin: 0 auto;
+
+
+
+}
+
+#footer ul.contacts {
+	float: left;
+	font-size: 12px;
+	list-style: none;
+	width: 300px;
+	margin: 0;
+	padding: 0 0 10px;
+}
+#footer ul.contacts h3 {
+	font-size: 14px;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+#footer ul.contacts li span {
+	float: left;
+	width: 50px;
+}
+#footer ul.contacts li p {
+	margin: 0 0 0 50px;
+}
+
+
+
+
+#footer p.footnote{
+  clear: both;
+
+  color:gray;
+
+display: block;
+	font-size: 12px;
+
+	text-align: center;
+
+}
