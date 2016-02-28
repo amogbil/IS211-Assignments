@@ -1,0 +1,38 @@
+
+
+div form{
+padding-top: 10px;
+width: 500px;
+height:150px;
+background-color: lightgray;
+}
+
+.formlabel{
+clear:left;
+    display:block;
+    float:left;
+    margin:0 0 1em 0;
+    padding:0 0.5em 0 0;
+    text-align:right;
+    width:8em;
+
+
+}
+
+.inputlabel{
+float:left;
+margin: 0 0.5em 0.5em 0;
+}
+
+textarea{
+width: 200px;
+}
+
+
+.button{
+float:left;
+margin: 0 0.5em 0.5em 0;
+position: absolute;
+left: 144px;
+top: 200px;
+}
